@@ -1,29 +1,35 @@
 # simple-uploader-ui
 
-This template should help get you started developing with Vue 3 in Vite.
+简单的文件上传功能。
 
-## Recommended IDE Setup
+## 使用组件
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[vue-simple-uploader](https://github.com/simple-uploader/vue-uploader)
 
-## Customize configuration
+## 说明
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+本项目使用pnpm管理。
 
 ```sh
-npm install
+npm install -g pnpm
 ```
 
-### Compile and Hot-Reload for Development
+## 使用
+
+### 初始化
 
 ```sh
-npm run dev
+pnpm install
 ```
 
-### Compile and Minify for Production
+### 开发
 
 ```sh
-npm run build
+pnpm dev
+```
+
+### 打包
+
+```sh
+pnpm build
 ```
