@@ -72,7 +72,7 @@ export default {
           console.log("文件上传附带参数：", file, chunk);
           return { path: this.uploadPath };
         },
-        chunkSize: 30 * 1024 * 1024,
+        chunkSize: 20 * 1024 * 1024,
         forceChunkSize: true,
         simultaneousUploads: 6,
         testChunks: true,
@@ -104,7 +104,7 @@ export default {
         waiting: "等待中",
       },
       setting: {
-        chunkSize: 30,
+        chunkSize: 20,
         simultaneous: 6,
       },
     };
